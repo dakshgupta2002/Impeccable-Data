@@ -35,8 +35,12 @@
     padding: 0px;
 }
 .link{
-    margin: 0px 15px;
-    font-size: 20px;
+    margin: 0px 10px;
+    font-size: 16px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #F6F6F6;
+    transition: all 0.4s;
+}
+.link:hover{
+    color: rgba(255, 255, 255, 0.5);
 }
