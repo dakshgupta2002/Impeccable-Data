@@ -1,11 +1,22 @@
 import React from 'react'
-import styles from './styles.module.scss'
+import { Card } from '../../lib/elements/Card'
+import './Home.css'
 
 export default function Home() {
   return (
-    <div className={styles.parent}>
-        <div className={styles.child}>
-            <h1>Home</h1>
+    <div className={'parent'}>
+        <div className={'child'}>
+            <Card
+                header={"Card 1"}
+            >
+                <div>
+                    BODY of the Card 1
+                    <div>
+                        Sub body
+                    </div>
+                </div>
+
+            </Card>
         </div>
     </div>
   )
