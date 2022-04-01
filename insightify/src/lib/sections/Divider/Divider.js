@@ -5,7 +5,7 @@ export default function Divider() {
     return (
         <div class="divider">
             <span></span>
-            <span>Divider</span>
+            <span>Insightify</span>
             <span></span>
         </div>
     )
