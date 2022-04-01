@@ -1,6 +1,6 @@
 import React from 'react'
-import { Header } from '../../lib'
-import { Card } from '../../lib/elements/Card'
+import { Button, Header } from '../../lib'
+import { Card } from '../../lib/elements/Card';
 import './Home.css'
 
 export default function Home() {
@@ -19,6 +19,9 @@ export default function Home() {
                 </div>
 
             </Card>
+        </div>
+        <div>
+            <Button content="Submit" />
         </div>
     </div>
   )
