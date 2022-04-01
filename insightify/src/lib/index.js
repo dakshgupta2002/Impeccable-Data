@@ -1,6 +1,7 @@
 // Elements
-export { Card } from './elements/Card'
-export { Button } from './elements/Button'
+export { Card } from './elements'
+export { Button } from './elements'
 
 
 // Sections
+export { Header } from './sections'

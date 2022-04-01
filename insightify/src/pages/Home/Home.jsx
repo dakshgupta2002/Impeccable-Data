@@ -1,10 +1,12 @@
 import React from 'react'
+import { Header } from '../../lib'
 import { Card } from '../../lib/elements/Card'
 import './Home.css'
 
 export default function Home() {
   return (
     <div className={'parent'}>
+        <Header/>
         <div className={'child'}>
             <Card
                 header={"Card 1"}
