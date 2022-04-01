@@ -22,6 +22,9 @@ export default function Home() {
         </div>
         <div>
             <Button content="Submit" />
+            <br/>
+            <br/>
+
         </div>
     </div>
   )

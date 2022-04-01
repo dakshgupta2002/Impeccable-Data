@@ -1,0 +1,26 @@
+.tabs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.tab{
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 5px 20px;
+    background-color: rgba(0, 0, 0);
+    color: white;
+    border-radius: 500px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 1000;
+    vertical-align: baseline;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
