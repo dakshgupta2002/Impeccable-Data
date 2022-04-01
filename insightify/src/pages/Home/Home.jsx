@@ -1,6 +1,7 @@
 import React from 'react'
-import { Button, Header } from '../../lib'
+import { Header } from '../../lib'
 import { Card } from '../../lib/elements/Card';
+import Dropdown from '../../lib/elements/Dropdown/Dropdown';
 import './Home.css'
 
 export default function Home() {
@@ -21,10 +22,7 @@ export default function Home() {
             </Card>
         </div>
         <div>
-            <Button content="Submit" />
-            <br/>
-            <br/>
-
+            <Dropdown heading="Dropdown" items={['Jan', 'Feb', 'Mar', 'Apr', 'May']} />
         </div>
     </div>
   )

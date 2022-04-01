@@ -1,0 +1,10 @@
+.dropbtn {
+    background-color: transparent;
+    border: none;
+}
+
+.dropdown-items {
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
