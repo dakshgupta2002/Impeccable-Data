@@ -1,8 +1,22 @@
+.cardbg {
+    height: 100%;
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 25vh 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .card {
     width: 80%;
     max-width: 800px;
     min-width: 300px;
-
     min-height: 40vh;
     background-color: #3d3d3d;
 
@@ -21,7 +35,6 @@
     align-items: center;
     position: relative;
     word-wrap: break-word;
-    margin: 30px auto;
     padding: 10px 20px;
     color: white;
 }

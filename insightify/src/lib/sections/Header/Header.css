@@ -14,6 +14,7 @@
     color: white;
     background-color: #3E497A;
     margin-bottom: 100px;
+    z-index: 1000;
 }
 
 .title{

@@ -3,7 +3,7 @@ import './Divider.css';
 
 export default function Divider() {
     return (
-        <div class="divider">
+        <div className="divider">
             <span></span>
             <span>Insightify</span>
             <span></span>
