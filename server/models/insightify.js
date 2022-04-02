@@ -32,6 +32,6 @@ const insightifySchema = new Schema({
     }
 });
 
-const insightify = mongoose.model("insightify", insightifySchema);
-export default insightify;
+const Insightify = mongoose.model("insightify", insightifySchema);
+export default Insightify;
 
