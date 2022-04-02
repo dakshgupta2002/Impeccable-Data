@@ -1,14 +1,16 @@
 ol {
-    background: #ff9999;
-    padding: 20px;
+    background: #3399ff;
+    padding: 40px;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0px auto;
 }
 
-
 ol li {
-    background: #ffe5e5;
-    color: darkred;
+    background: #cce5ff;
+    color: darkblue;
     margin: 10px;
-    padding: 1px 2px;
+    padding: 1px 2px ;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 1.2em;
 }

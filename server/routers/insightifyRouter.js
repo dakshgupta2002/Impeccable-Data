@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import bcrypt from "bcrypt";
-import Insightify from '../models/Insightify';
+import Impeccable from '../models/Impeccable.js';
 import jwt from 'jsonwebtoken';
 import 'dotenv/config';
 
@@ -23,12 +23,13 @@ insightifyRouter.route('*')
     })
 
 insightifyRouter.route("/")
-    .get((req, res) => {
-        Insightify.find({}, (err, insightify) => {
+    .get(async (req, res) => {
+        Impeccable.find({}).exec(function (err, data) {
+            console.log(data)
             if (err) {
                 res.status(500).send(err);
             } else {
-                res.json(insightify);
+                res.status(200).send(data);
             }
         });
     });

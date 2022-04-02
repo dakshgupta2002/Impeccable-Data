@@ -1,3 +1,16 @@
+# What is Insightify ? 
+
+Insightify is a portal for hotel managers wherein they can enter their old customer database and can get the analytics and suggestions as to what can be improved in their hotel services and how can they increase the number of customers and the revenue generated from them.
+
+## Jupyter Notebook
+Jupyter Notebook is used at the backend to clean the data and generate the analytics for the hotels. Also, we used many Pythonic libraries such as Numpy, Pandas, Matplotlib and SeaBorn to execute Exploratory Data Analysis(EDA) and deliver useful graphs and insights.
+![Room Mismatch](https://github.com/dakshgupta2002/Impeccable-Data/blob/master/insightify/src/assets/graphs/city_hotel_room_mismatches.png?raw=true)
+![Top Countries](https://github.com/dakshgupta2002/Impeccable-Data/blob/master/insightify/src/assets/graphs/Top_15_Countries.png?raw=true)
+![Number of Visitors Each Month](https://github.com/dakshgupta2002/Impeccable-Data/blob/master/insightify/src/assets/graphs/Number_of_visitors_each_month.png?raw=true)
+
+
+
+
 # How to setup Insightify ?
 
 This project is built upon ReactJs for frontend and MongoDb for storing data and NodeJs as the logical schema.
@@ -13,50 +26,22 @@ Run the server on port 3000-
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
+The Insightify is deployed via Vercel on the [Insightify](https://insightify-dakshgupta2002.vercel.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Setting up backend 
+Move into the node js directory-
+### cd server  
+Install the dependencies
+### npm install  
+Run the server on port 3333 using nodemon-  
+### npm run start  
 
-### `npm run build` fails to minify
+You will now have access to see: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![HomePage1](https://user-images.githubusercontent.com/78641951/161373098-a56a3a6c-b0c7-4e34-b176-bb6fbc97382d.PNG)
+![HomePage2](https://user-images.githubusercontent.com/78641951/161373100-d4774870-e8a9-4744-8fee-87244252595e.PNG)
+![Results](https://user-images.githubusercontent.com/78641951/161373101-a110cf5f-0ea0-46ef-bd33-2368087bdfd4.PNG)
+
+

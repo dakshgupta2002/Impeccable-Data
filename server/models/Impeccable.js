@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 const { Schema } = mongoose;
 
-const insightifySchema = new Schema({
+const impeccableSchema = new Schema({
     hotel: {
         type: String
     },
@@ -32,6 +32,6 @@ const insightifySchema = new Schema({
     }
 });
 
-const Insightify = mongoose.model("insightify", insightifySchema);
-export default Insightify;
+const Impeccable = mongoose.model("impeccable", impeccableSchema);
+export default Impeccable;
 
