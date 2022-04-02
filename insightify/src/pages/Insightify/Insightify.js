@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Divider, Header } from '../../lib'
-import './Visitors.css'
-export default function Visitors() {
+import './Insightify.css'
+export default function Insightify() {
   return (
     <div>
 

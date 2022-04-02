@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { Divider, Header, Tabs } from '../../lib'
-import './Insights.css'
+import './Results.css'
 import Resort from './Hotels/Resort';
 import City from './Hotels/City';
-import Results from './Hotels/Results';
+import Results from './Hotels/Result';
 
 export default function Insights() {
     const [hotel, setHotel] = useState('Hotel1');
