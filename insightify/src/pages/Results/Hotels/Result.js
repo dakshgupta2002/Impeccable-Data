@@ -1,5 +1,5 @@
 import React from "react";
-import "./Hotels.css";
+import "./Result.css";
 import categories from "../../../assets/graphs/categories.png";
 import city_hotel_adr from "../../../assets/graphs/city_hotel_adr.png";
 import city_hotel_room_mismatches from "../../../assets/graphs/city_hotel_room_mismatches.png";
