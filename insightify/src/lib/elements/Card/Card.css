@@ -18,7 +18,7 @@
     max-width: 800px;
     min-width: 300px;
     min-height: 40vh;
-    background-color: #3d3d3d;
+    background-color: rgba(61,61,61,0.9);
 
     border-top-left-radius: 37px 140px;
     border-top-right-radius: 23px 130px;

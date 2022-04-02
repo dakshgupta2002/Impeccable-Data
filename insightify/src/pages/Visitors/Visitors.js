@@ -1,13 +1,13 @@
 import React from 'react'
 import { Header } from '../../lib'
-
+import './Visitors.css'
 export default function Visitors() {
   return (
     <div>
 
       <Header/>
 
-      <form>
+      <form className='form'>
         <div className="form-group">
           <label for="exampleFormControlInput1">Email address</label>
           <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
