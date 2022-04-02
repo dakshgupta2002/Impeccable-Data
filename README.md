@@ -1,5 +1,13 @@
 # What is Insightify ? 
 
+Insightify is a portal for hotel managers wherein they can enter their old customer database and can get the analytics and suggestions as to what can be improved in their hotel services and how can they increase the number of customers and the revenue generated from them.
+
+## Jupyter Notebook
+Jupyter Notebook is used at the backend to clean the data and generate the analytics for the hotels. Also, we used many Pythonic libraries such as Numpy, Pandas, Matplotlib and SeaBorn to execute Exploratory Data Analysis(EDA) and deliver useful graphs and insights.
+![Room Mismatch](https://github.com/dakshgupta2002/Impeccable-Data/blob/master/insightify/src/assets/graphs/city_hotel_room_mismatches.png?raw=true)
+![Top Countries](https://github.com/dakshgupta2002/Impeccable-Data/blob/master/insightify/src/assets/graphs/Top_15_Countries.png?raw=true)
+![Number of Visitors Each Month](https://github.com/dakshgupta2002/Impeccable-Data/blob/master/insightify/src/assets/graphs/Number_of_visitors_each_month.png?raw=true)
+
 
 
 
