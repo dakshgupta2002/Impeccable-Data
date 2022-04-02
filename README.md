@@ -41,7 +41,10 @@ Run the server on port 3333 using nodemon-
 You will now have access to see: 
 
 ![HomePage1](https://user-images.githubusercontent.com/78641951/161373098-a56a3a6c-b0c7-4e34-b176-bb6fbc97382d.PNG)
-![HomePage2](https://user-images.githubusercontent.com/78641951/161373100-d4774870-e8a9-4744-8fee-87244252595e.PNG)
-![Results](https://user-images.githubusercontent.com/78641951/161373101-a110cf5f-0ea0-46ef-bd33-2368087bdfd4.PNG)
 
+![HomePage2](https://user-images.githubusercontent.com/78641951/161373100-d4774870-e8a9-4744-8fee-87244252595e.PNG)
+
+![CityHotel](https://user-images.githubusercontent.com/78641951/161374272-2746434d-9f25-455c-898a-847c2f7212c8.PNG)
+
+![Results](https://user-images.githubusercontent.com/78641951/161374268-36ce7ced-fbad-4ee6-bf3b-7c72b2d38340.PNG)
 
