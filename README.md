@@ -20,7 +20,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
 ### Deployment
-The Insightify is deployed via Vercel on the [Insightify](vercel.com)
+The Insightify is deployed via Vercel on the [Insightify](insightify-dakshgupta2002.vercel.app/)
 
 ### Setting up backend 
 Move into the node js directory-
