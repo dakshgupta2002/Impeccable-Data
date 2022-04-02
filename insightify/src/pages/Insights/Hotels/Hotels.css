@@ -1,0 +1,14 @@
+ol {
+    background: #ff9999;
+    padding: 20px;
+}
+
+
+ol li {
+    background: #ffe5e5;
+    color: darkred;
+    margin: 10px;
+    padding: 1px 2px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.2em;
+}

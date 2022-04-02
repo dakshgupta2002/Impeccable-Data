@@ -14,7 +14,7 @@ export default function Insights() {
 
             <div className='hotels'>
                 <Tabs
-                    titles={['Results', 'Resort Hotel', 'City Hotel']}
+                    titles={['Results', 'City Hotel', 'Resort Hotel']}
                     value={hotel}
                     onClick={(e) => {
                         setHotel(e.target.outerText);

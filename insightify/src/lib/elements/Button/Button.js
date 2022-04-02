@@ -1,10 +1,24 @@
 import React from 'react'
 import './Button.css';
 
-export default function Button({content, bgCol, textCol}) {
+export default function Button({
+  bgCol,
+  textCol,
+  type,
+  height,
+  width,
+  children,
+  onClick
+}) {
   return (
-    <div className="btn">
-        {content}
-    </div>
+    <button
+      className="btn"
+      type={type}
+      style={{height: height, width: width}}
+      onClick={onClick}
+    >
+      {children}
+
+    </button>
   )
 }
