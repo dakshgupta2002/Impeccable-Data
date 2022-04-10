@@ -1,6 +1,6 @@
 # What is Insightify ? 
 
-Insightify is a portal for hotel managers wherein they can enter their old customer database and can get the analytics and suggestions as to what can be improved in their hotel services and how can they increase the number of customers and the revenue generated from them.
+Insightify is a portal for hotel managers wherein they can enter their old customer database and can get the analytics and suggestions as to what can be improved in their hotel services; in order to mainly increase the number of return customers and the revenue generated from them.
 
 ## Jupyter Notebook
 Jupyter Notebook is used at the backend to clean the data and generate the analytics for the hotels. Also, we used many Pythonic libraries such as Numpy, Pandas, Matplotlib and SeaBorn to execute Exploratory Data Analysis(EDA) and deliver useful graphs and insights.
